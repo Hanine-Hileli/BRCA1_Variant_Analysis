@@ -1,4 +1,3 @@
-# BRCA1 Variant Analysis
 
 # BRCA1 Variant Analysis
 
@@ -81,6 +80,10 @@ For example:
 
 ```text
 missense variant|intron variant|non-coding transcript variant
+```
+
+---
+
 ## Dataset
 
 The dataset was exported from ClinVar and contains BRCA1-related variant records.
@@ -145,3 +148,4 @@ Main observations:
 ```bash
 pip install -r requirements.txt
 python src/analyze_brca1.py
+```
